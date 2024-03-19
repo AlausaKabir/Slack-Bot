@@ -1,0 +1,23 @@
+{
+  "name": "slack-bot-integration",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "MUMUNI Kabiru",
+  "license": "ISC",
+  "repository": "https://github.com/AlausaKabir/Slack-Bot.git",
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "@slack/rtm-api": "^6.2.1",
+    "@slack/web-api": "^7.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
